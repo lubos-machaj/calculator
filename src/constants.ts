@@ -1,5 +1,5 @@
-import { InsuranceEnum, PackageTypeEnum } from "./enums";
-import type { SelectType, AdditionalCharge, PackageType } from "./types";
+import { InsuranceEnum, PackageTypeEnum } from './enums'
+import type { SelectType, AdditionalCharge, PackageType } from './types'
 
 export const InsuranceSelectItems: SelectType = {
   [InsuranceEnum.SHORT_TERM]: 'Short Term',
@@ -11,7 +11,7 @@ export const PackageTypeSelectItems: SelectType = {
   [PackageTypeEnum.EXTENDED]: 'Extended',
   [PackageTypeEnum.EXTRA]: 'Extra',
 }
-    
+
 export const NumberPersonsSelectItems: SelectType = {
   1: '1',
   2: '2',
@@ -41,5 +41,5 @@ export const additionalCharge: AdditionalCharge = {
   sportActivities: {
     shortTerm: 0.3,
     annual: 0.1,
-  }
+  },
 }
